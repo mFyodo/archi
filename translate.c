@@ -7,7 +7,6 @@
 #include <math.h>
 #define NbColons 200
 #define NbLines 1000
-
 long int HexToDec(char hex[]){
     long int base = 1;
     long int dec = 0;
