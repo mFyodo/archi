@@ -11,6 +11,7 @@ long int HexToDec(char hex[]){
     long int base = 1;
     long int dec = 0;
     printf("test") ; 
+    printf("deuxieme test");
     for (int i = strlen(hex)-1; i >= 0; i--){
         if (hex[i] >= '0' && hex[i] <= '9'){
             dec += (hex[i] - 48) * base;
